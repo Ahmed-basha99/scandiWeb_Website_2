@@ -1,6 +1,5 @@
 {
   "name": "testwebsite",
-  "homepage": "https://ahmed-basha99.github.io/scandiWeb_Website_2",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
