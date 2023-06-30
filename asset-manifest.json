@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.7c13acca.css",
-    "main.js": "/static/js/main.c47ce7fa.js",
-    "static/js/787.abdfedb0.chunk.js": "/static/js/787.abdfedb0.chunk.js",
-    "index.html": "/index.html",
-    "main.7c13acca.css.map": "/static/css/main.7c13acca.css.map",
-    "main.c47ce7fa.js.map": "/static/js/main.c47ce7fa.js.map",
-    "787.abdfedb0.chunk.js.map": "/static/js/787.abdfedb0.chunk.js.map"
+    "main.css": "/scandiWeb_Website_2/static/css/main.7c13acca.css",
+    "main.js": "/scandiWeb_Website_2/static/js/main.59ce8aea.js",
+    "static/js/787.abdfedb0.chunk.js": "/scandiWeb_Website_2/static/js/787.abdfedb0.chunk.js",
+    "index.html": "/scandiWeb_Website_2/index.html",
+    "main.7c13acca.css.map": "/scandiWeb_Website_2/static/css/main.7c13acca.css.map",
+    "main.59ce8aea.js.map": "/scandiWeb_Website_2/static/js/main.59ce8aea.js.map",
+    "787.abdfedb0.chunk.js.map": "/scandiWeb_Website_2/static/js/787.abdfedb0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7c13acca.css",
-    "static/js/main.c47ce7fa.js"
+    "static/js/main.59ce8aea.js"
   ]
 }
