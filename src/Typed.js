@@ -14,7 +14,7 @@ export default class Typed extends React.Component {
 
                 <label>
                     Enter the size
-                    <input type="number" className="myInput" value={this.state.size} onChange={
+                    <input id = "size" type="number" className="myInput" value={this.state.size} onChange={
                         (event) => {
                             this.setState({size : event.target.value});
                             this.props.handle(event.target.value);
@@ -31,7 +31,7 @@ export default class Typed extends React.Component {
                 <div className='form-group'>
                     <label>
                         Enter the height
-                        <input type="number" className="myInput" value={this.state.height} onChange={
+                        <input id = "height" type="number" className="myInput" value={this.state.height} onChange={
                             (event) => {
                                 this.setState({height : event.target.value});
                                 this.props.handle({height : event.target.value, width:this.state.width, length:this.state.length})
@@ -42,7 +42,7 @@ export default class Typed extends React.Component {
 
                     <label>
                         Enter the width
-                        <input type="number" className="myInput" value={this.state.width} onChange={
+                        <input id = "width" type="number" className="myInput" value={this.state.width} onChange={
                             (event) => {
                                 this.setState({width : event.target.value});
                                 this.props.handle ({height : this.state.height , width : event.target.value, length : this.state.length})
@@ -52,7 +52,7 @@ export default class Typed extends React.Component {
                 <div className='form-group'>
                     <label>
                         Enter the length
-                        <input type="number" className="myInput" value={this.state.length} onChange={
+                        <input id = "length" type="number" className="myInput" value={this.state.length} onChange={
                             (event) => {
                                 this.setState({length : event.target.value})
                                 this.props.handle ({height:this.state.height, length : event.target.value, width: this.state.width})
@@ -71,7 +71,7 @@ export default class Typed extends React.Component {
 
                 <label>
                     Enter the weight
-                    <input type="number" className="myInput" value={this.state.weight} onChange={
+                    <input id = "weight" type="number" className="myInput" value={this.state.weight} onChange={
                         (event) => {
                             this.setState({weight : event.target.value});
                             this.props.handle(event.target.value)
